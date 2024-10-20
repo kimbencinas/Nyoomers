@@ -4,7 +4,7 @@ function Navbar() {
 
     return (
         <nav>
-            <div>
+            <div class="logo">
                 <p>Nyoomers</p>
             </div>
             <ul>
