@@ -1,9 +1,12 @@
-import React from 'react';
+import '../styles/Navbar.css';
 
 function Navbar() {
 
     return (
         <nav>
+            <div>
+                <p>Nyoomers</p>
+            </div>
             <ul>
                 <li>Home</li>
                 <li>Inventory</li>
