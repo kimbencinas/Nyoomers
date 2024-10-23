@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-image: linear-gradient(black, #34D399);
+  background-image: linear-gradient(black, #111827);
 }
 
 * {
@@ -15,6 +17,7 @@
 html, body {
   width: 100%;
   height: 100%;
+  font-family: 'Inter', sans-serif;
 }
 
 .logo {
@@ -51,4 +54,35 @@ html, body {
 
 .read-the-docs {
   color: #888;
+}
+
+.slogan {
+  color: white;
+}
+
+.featured-vehicles {
+  background-color: white;
+  color: black;
+}
+
+.inventory {
+  background-color: #34D399;
+  color: #111827;
+}
+
+.schedule {
+  background-color: #111827;
+  color: #34D399;
+}
+
+.contact {
+  background-color: white;
+}
+
+.info-section {
+  display: flex;
+}
+
+.info-card-title {
+  color: white;
 }
