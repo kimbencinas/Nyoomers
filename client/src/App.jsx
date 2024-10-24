@@ -15,10 +15,10 @@ function App() {
         </p>
       </div>
       <div>
-        <button className="inventory">
+        <button className="inventory-button">
           View Inventory
         </button>
-        <button className="schedule">
+        <button className="schedule-button">
           View Inventory
         </button>
       </div>
@@ -27,17 +27,20 @@ function App() {
       <h3>Featured Vehicles</h3>
     </div>
     <div>
-      <h3>Why Choose Nyoomers?</h3>
+      <h3 className="why-nyoomers">Why Choose Nyoomers?</h3>
       <div className="info-section">
         <InfoCards
+          icon="🌱"
           title="Eco-Friendly"
           info="Join the sustainable revolution with zero-emission vehicles"
         />
         <InfoCards
+          icon="💰"
           title="Best Prices"
           info="Competitive pricing and excellent financing options"
         />
         <InfoCards
+          icon="🔧"
           title="Expert Guidance"
           info="Expert staff to help you find your perfect vehicle"
         />
@@ -46,7 +49,7 @@ function App() {
     <div className="contact">
       <h3>Ready to Go Electric?</h3>
       <p>Visit our showroom or contact us to schedule a test drive today!</p>
-      <button>Contact Us</button>
+      <button className="contact-button">Contact Us</button>
     </div>
     </>
   )

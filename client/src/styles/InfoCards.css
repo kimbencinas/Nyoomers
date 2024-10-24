@@ -1,0 +1,11 @@
+.info-section {
+    display: flex;
+}
+  
+.info-card-title {
+    color: white;
+}
+
+.info-card-description {
+    color: white;
+}

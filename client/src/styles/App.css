@@ -65,24 +65,27 @@ html, body {
   color: black;
 }
 
-.inventory {
+.inventory-button {
   background-color: #34D399;
   color: #111827;
 }
 
-.schedule {
+.schedule-button {
   background-color: #111827;
   color: #34D399;
+  width: 200px;
 }
 
 .contact {
   background-color: white;
 }
 
-.info-section {
-  display: flex;
+.contact-button {
+  background-color: #38A169;
+  color: white;
+  outline: none;
 }
 
-.info-card-title {
+.why-nyoomers {
   color: white;
 }
