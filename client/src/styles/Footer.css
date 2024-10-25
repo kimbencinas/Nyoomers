@@ -1,0 +1,6 @@
+.footer-container {
+    display: flex;
+    color: white;
+    background-color: black;
+    position: fixed;
+}

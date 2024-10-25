@@ -2,6 +2,7 @@ nav {
     display: flex;
     gap: 50%;
     width: 100%;
+    background-color: black;
 }
 
 ul {
@@ -9,6 +10,14 @@ ul {
     display: flex;
     gap: 10%;
     color: white;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
 }
 
 .logo {

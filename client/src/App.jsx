@@ -1,6 +1,7 @@
 import './styles/App.css'
 import Navbar from './components/Navbar'
 import InfoCards from './components/InfoCards'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -8,25 +9,27 @@ function App() {
     <>
     <Navbar />
     <div>
-      <div className="slogan">
-        <h2>Drive the <span>Future</span> Today</h2>
-        <p>
-          Experience the perfect blend of performance and sustainability with our premium selection of electric and hybrid vehicles.
-        </p>
-      </div>
-      <div>
-        <button className="inventory-button">
-          View Inventory
-        </button>
-        <button className="schedule-button">
-          View Inventory
-        </button>
+      <div className="header-section">
+        <div className="slogan">
+          <h2>Drive the <span>Future</span> Today</h2>
+          <p>
+            Experience the perfect blend of performance and sustainability with our premium selection of electric and hybrid vehicles.
+          </p>
+        </div>
+        <div>
+          <button className="inventory-button">
+            View Inventory
+          </button>
+          <button className="schedule-button">
+            View Inventory
+          </button>
+        </div>
       </div>
     </div>
     <div className="featured-vehicles">
       <h3>Featured Vehicles</h3>
     </div>
-    <div>
+    <div className="info-section">
       <h3 className="why-nyoomers">Why Choose Nyoomers?</h3>
       <div className="info-section">
         <InfoCards
@@ -51,6 +54,7 @@ function App() {
       <p>Visit our showroom or contact us to schedule a test drive today!</p>
       <button className="contact-button">Contact Us</button>
     </div>
+    <Footer />
     </>
   )
 }
