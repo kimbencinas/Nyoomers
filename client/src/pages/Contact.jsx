@@ -9,7 +9,10 @@ function Contact() {
           <h2>Get In Touch</h2>
           <div>
             <form>
-              <input />
+              <input type="text" id="first-name" />
+              <input type="text" id="last-name" />
+              <input type="text" id="email" />
+              <textarea id="message"></textarea>
             </form>
           </div>
         </div>
