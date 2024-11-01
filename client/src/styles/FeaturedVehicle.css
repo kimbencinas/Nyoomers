@@ -1,0 +1,32 @@
+.card-container {
+    background-color: white;
+    width: 180px;
+
+}
+
+.vehicle-image {
+    width: 150px;
+}
+
+.middle-row {
+    display: flex;
+}
+
+.last-row {
+    display: flex;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 18px;
+    width: 90px;
+    height: 30px;
+    font-size: 10px;
+    border: none;
+}
+
+.vehicle-price {
+    color: #38A169;
+    font-weight: 600;
+}

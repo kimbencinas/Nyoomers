@@ -1,11 +1,17 @@
 .info-section {
     display: flex;
 }
+
+.icon {
+    font-size: 30px;
+}
   
 .info-card-title {
     color: white;
+    font-size: 20px;
 }
 
 .info-card-description {
-    color: white;
+    color: #D1D5DB;
+    font-size: 14px;
 }

@@ -1,8 +1,10 @@
 nav {
     display: flex;
-    gap: 50%;
-    width: 100%;
+    justify-content: space-between;
+    gap: 0%;
+    width: auto;
     background-color: black;
+    padding: 0px;
 }
 
 ul {
@@ -14,12 +16,20 @@ ul {
 
 a {
     color: white;
+    text-decoration: none !important;
 }
 
 a:visited {
-    text-decoration: none;
+    color: white;
+    text-decoration: none; 
 }
 
-.logo {
+a:hover {
     color: #34D399;
+}
+
+.logo a {
+    color: #34D399;
+    font-weight: bold;
+    font-size: 18px;
 }

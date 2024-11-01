@@ -1,15 +1,21 @@
 import '../styles/Navbar.css';
-import '../styles/VehicleCard.css';
+import '../styles/FeaturedVehicle.css';
 
 function FeaturedVehicle({ title, image, powerType, price, mileage }) {
 
     return (
-        <div>
+        <div className="card-container">
             <img src={image} alt={`${title}`} className="vehicle-image" />
             <p className="vehicle-title">{title}</p>
-            <p className="vehicle-type">{powerType}</p>
-            <p className="vehicle-mileage">{mileage}</p>
-            <p className="vehicle-price">{price}</p>
+            <div className="middle-row">
+                <p className="vehicle-type">{powerType}</p>
+                <p> • </p>
+                <p className="vehicle-mileage">{mileage}</p>
+            </div>
+            <div className="last-row">
+                <p className="vehicle-price">{price}</p>
+                <button>Learn More</button>
+            </div>
         </div>
     )
 }

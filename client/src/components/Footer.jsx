@@ -3,6 +3,7 @@ import '../styles/Footer.css';
 function Footer() {
 
     return (
+    <div className="container">
         <div className="footer-container">
             <div className="nyoomers-section">
                 <p className="website-name">Nyoomers</p>
@@ -25,6 +26,11 @@ function Footer() {
                 <p className="link">Facebook</p>
             </div>
         </div>
+        <hr></hr>
+        <div>
+            <p className="copyright">© 2024 Nyoomers. All rights reserved.</p>
+        </div>
+    </div>
     )
 }
 

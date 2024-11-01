@@ -4,6 +4,8 @@ import InfoCards from './components/InfoCards'
 import Footer from './components/Footer'
 import FeaturedVehicle from './components/FeaturedVehicle'
 import { Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../public/assets/image/car_image.jpg';
 
 function App() {
 
@@ -35,7 +37,7 @@ function App() {
     <div className="featured-vehicles">
       <h3>Featured Vehicles</h3>
       <FeaturedVehicle
-        image='/images/car_image.jpg'
+        image='/assets/image/car_image.jpg'
         title="Porsche Taycan"
         powerType="Electric"
         mileage="100mi"
@@ -44,23 +46,23 @@ function App() {
     </div>
     <div className="info-section">
       <h3 className="why-nyoomers">Why Choose Nyoomers?</h3>
-      <div className="info-section">
-        <InfoCards
-          icon="🌱"
-          title="Eco-Friendly"
-          info="Join the sustainable revolution with zero-emission vehicles"
-        />
-        <InfoCards
-          icon="💰"
-          title="Best Prices"
-          info="Competitive pricing and excellent financing options"
-        />
-        <InfoCards
-          icon="🔧"
-          title="Expert Guidance"
-          info="Expert staff to help you find your perfect vehicle"
-        />
-      </div>
+        <div className="info-card-container">
+          <InfoCards
+            icon="🌱"
+            title="Eco-Friendly"
+            info="Join the sustainable revolution with zero-emission vehicles"
+          />
+          <InfoCards
+            icon="💰"
+            title="Best Prices"
+            info="Competitive pricing and excellent financing options"
+          />
+          <InfoCards
+            icon="🔧"
+            title="Expert Guidance"
+            info="Expert staff to help you find your perfect vehicle"
+          />
+        </div>
     </div>
     <div className="contact">
       <h3 className="contact-title">Ready to Go Electric?</h3>

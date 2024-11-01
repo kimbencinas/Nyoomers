@@ -4,8 +4,8 @@ import '../styles/InfoCards.css';
 function InfoCards({ title, icon, info }) {
 
     return (
-        <div>
-            <p>{icon}</p>
+        <div className="card-container">
+            <p className="icon">{icon}</p>
             <div>
                 <h2 className="info-card-title">{title}</h2>
                 <p className="info-card-description">{info}</p>
