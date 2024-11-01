@@ -3,4 +3,43 @@
     color: white;
     background-color: black;
     position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    padding: 4%;
+}
+
+.website-name {
+    color: #34D399;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.website-slogan {
+    color: #D9D9D9;
+    font-size: 14px;
+    padding-top: 14px;
+}
+
+.link {
+    color: #D9D9D9;
+    font-size: 14px;
+    padding-top: 12px;
+}
+
+.quick-links {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contacts {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.follow-us {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
 }

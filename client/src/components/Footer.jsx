@@ -4,25 +4,25 @@ function Footer() {
 
     return (
         <div className="footer-container">
-            <div>
-                <p>Nyoomers</p>
-                <p>Driving the future of sustainable transportation.</p>
+            <div className="nyoomers-section">
+                <p className="website-name">Nyoomers</p>
+                <p className="website-slogan">Driving the future of sustainable transportation.</p>
             </div>
-            <div>
-                <p>Quick Links</p>
-                <p>Home</p>
-                <p>About</p>
-                <p>Contact</p>
+            <div className="links-section">
+                <p className="quick-links">Quick Links</p>
+                <p className="link">Home</p>
+                <p className="link">About</p>
+                <p className="link">Contact</p>
             </div>
-            <div>
-                <p>Contact</p>
-                <p>Phone</p>
-                <p>Email</p>
+            <div className="contact-section">
+                <p className="contacts">Contact</p>
+                <p className="link">Phone: 209-587-5808</p>
+                <p className="link">Email: nyoomersauto@gmail.com</p>
             </div>
-            <div>
-                <p>Follow Us</p>
-                <p>Instagram</p>
-                <p>Facebook</p>
+            <div className="social-media">
+                <p className="follow-us">Follow Us</p>
+                <p className="link">Instagram</p>
+                <p className="link">Facebook</p>
             </div>
         </div>
     )
