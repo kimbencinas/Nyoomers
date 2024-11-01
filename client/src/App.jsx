@@ -63,8 +63,8 @@ function App() {
       </div>
     </div>
     <div className="contact">
-      <h3>Ready to Go Electric?</h3>
-      <p>Visit our showroom or contact us to schedule a test drive today!</p>
+      <h3 className="contact-title">Ready to Go Electric?</h3>
+      <p className="visit-us">Visit our showroom or contact us to schedule a test drive today!</p>
       <Link to="/contact">
         <button className="contact-button">Contact Us</button>
       </Link>

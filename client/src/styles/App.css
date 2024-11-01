@@ -49,12 +49,26 @@ html, body {
 .contact {
   background-color: white;
   padding: 60px;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 25px;
+}
+
+.visit-us {
+  padding-top: 18px;
+  font-size: 18px;
+  padding-bottom: 24px;
 }
 
 .contact-button {
   background-color: #38A169;
   color: white;
   outline: none;
+  padding: 8px;
+  width: 100px;
+  border-radius: 16px;
 }
 
 .info-section {
