@@ -72,6 +72,7 @@ html, body {
   cursor: pointer;
   border: none;
   font-size: 14px;
+  height: auto;
 }
 
 .info-section {
@@ -83,6 +84,7 @@ html, body {
 
 .info-card-container {
   display: flex;
+  justify-content: space-evenly;
   text-align: center;
   padding: 18px;
   padding-top: 30px;

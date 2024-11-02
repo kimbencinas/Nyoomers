@@ -1,3 +1,7 @@
+.card-container {
+    background-color: transparent !important;
+}
+
 .info-section {
     display: flex;
 }
