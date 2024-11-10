@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
 import '../styles/Contact.css'
 
 function Contact() {
@@ -6,17 +7,15 @@ function Contact() {
     return (
       <div>
         <Navbar />
-        <div className="contact">
+        <div className="contact-container">
           <h2>Get In Touch</h2>
-          <div>
-            <form className="contact-form">
-              <input type="text" id="first-name" placeholder="First Name" />
-              <input type="text" id="last-name" placeholder="Last Name" />
-              <input type="text" id="email" placeholder="Email Address" />
-              <textarea id="message" placeholder="Message"></textarea>
-              <button>Send Message</button>
-            </form>
-          </div>
+          <form className="contact-form">
+            <input type="text" id="first-name" placeholder="First Name" required />
+            <input type="text" id="last-name" placeholder="Last Name" required />
+            <input type="text" id="email" placeholder="Email Address" required />
+            <textarea id="message" placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
         </div>
       </div>
     )
