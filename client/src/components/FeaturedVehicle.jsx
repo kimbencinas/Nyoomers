@@ -4,7 +4,7 @@ import '../styles/FeaturedVehicle.css';
 function FeaturedVehicle({ title, image, powerType, price, mileage }) {
 
     return (
-        <div className="card-container">
+        <div className="vehicle-container">
             <img src={image} alt={`${title}`} className="vehicle-image" />
             <p className="vehicle-title">{title}</p>
             <div className="middle-row">
