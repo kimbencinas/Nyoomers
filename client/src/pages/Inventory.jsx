@@ -5,7 +5,10 @@ function Inventory() {
     return (
       <>
         <Navbar />
-        <div className="sidebar"></div>
+        <div className="sidebar">
+          <>
+          </>
+        </div>
         <div className="container">
           <h1>Inventory</h1>
           <div className="sort-results">
