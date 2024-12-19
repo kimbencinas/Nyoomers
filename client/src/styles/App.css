@@ -36,11 +36,6 @@ html, body {
 }
 
 .inventory-button {
-  background-color: #34D399;
-  color: #111827;
-}
-
-.schedule-button {
   background-color: #111827;
   color: #34D399;
   width: 200px;

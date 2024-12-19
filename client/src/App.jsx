@@ -26,11 +26,6 @@ function App() {
               View Inventory
             </button>
           </Link>
-          <Link>
-            <button className="schedule-button">
-              View Inventory
-            </button>
-          </Link>
         </div>
       </div>
     </div>
