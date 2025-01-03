@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar"
+import InventoryCard from "../components/InventoryCard"
 
 function Inventory() {
 
@@ -16,7 +17,13 @@ function Inventory() {
             <p>Sort by: </p>
           </div>
           <div className="inventory-cards">
-
+            <InventoryCard
+              title="Ford C-Max"
+              image="/assets/image/car_image.jpg"
+              powerType="Electric"
+              mileage="n/a"
+              price="n/a"
+            />
           </div>
         </div>
       </>
