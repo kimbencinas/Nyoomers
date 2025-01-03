@@ -1,23 +1,22 @@
 import Navbar from "../components/Navbar"
-import InventoryCard from "../components/InventoryCard"
+import FeaturedVehicle from "../components/FeaturedVehicle"
 
 function Inventory() {
 
     return (
       <>
         <Navbar />
-        <div className="sidebar">
-          <>
-          </>
-        </div>
-        <div className="container">
+        <div className="inventory-container">
           <h1>Inventory</h1>
-          <div className="sort-results">
-            <p>results</p>
-            <p>Sort by: </p>
-          </div>
           <div className="inventory-cards">
-            <InventoryCard
+            <FeaturedVehicle
+              title="Ford C-Max"
+              image="/assets/image/car_image.jpg"
+              powerType="Electric"
+              mileage="n/a"
+              price="n/a"
+            />
+             <FeaturedVehicle
               title="Ford C-Max"
               image="/assets/image/car_image.jpg"
               powerType="Electric"
