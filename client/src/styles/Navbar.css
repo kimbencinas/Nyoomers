@@ -1,21 +1,21 @@
 nav {
     display: flex;
     justify-content: space-between;
-    gap: 0%;
+    align-items: center;
     background-color: black;
-    padding: 0px;
+    padding: 10px 106px 0px 20px;
 }
 
-ul {
+.nav-links {
     list-style-type: none;
     display: flex;
-    gap: 10%;
-    color: white;
+    gap: 14%;
 }
 
 a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none !important;
+    display: flex;
 }
 
 a:visited {
@@ -31,4 +31,5 @@ a:hover {
     color: #34D399;
     font-weight: bold;
     font-size: 18px;
+    margin-right: 10px;
 }
