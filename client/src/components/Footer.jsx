@@ -9,22 +9,22 @@ function Footer() {
                 <p className="website-name">Nyoomers</p>
                 <p className="website-slogan">Driving the future of sustainable transportation.</p>
             </div>
-            <div className="links-section">
-                <p className="quick-links">Quick Links</p>
-                <p className="link">Home</p>
-                <p className="link">About</p>
-                <p className="link">Contact</p>
-            </div>
-            <div className="contact-section">
-                <p className="contacts">Contact</p>
-                <p className="link">Phone: 209-587-5808</p>
-                <p className="link">Email: nyoomersauto@gmail.com</p>
-            </div>
-            <div className="social-media">
-                <p className="follow-us">Follow Us</p>
-                <p className="link">Instagram</p>
-                <p className="link">Facebook</p>
-            </div>
+            <ul className="links-section">
+                <li className="quick-links">Quick Links</li>
+                <li className="link">Home</li>
+                <li className="link">About</li>
+                <li className="link">Contact</li>
+            </ul>
+            <ul className="contact-section">
+                <li className="contacts">Contact</li>
+                <li className="link">Phone: 209-587-5808</li>
+                <li className="link">Email: nyoomersauto@gmail.com</li>
+            </ul>
+            <ul className="social-media">
+                <li className="follow-us">Follow Us</li>
+                <li className="link">Instagram</li>
+                <li className="link"><a href="https://www.facebook.com/people/Nyoomers/61567842125543/">Facebook</a></li>
+            </ul>
         </div>
         <hr></hr>
         <div>

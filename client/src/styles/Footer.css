@@ -32,10 +32,10 @@
     padding-top: 14px;
 }
 
-.link {
-    color: #D9D9D9;
-    font-size: 14px;
+.link a {
+    color: white;
     padding-top: 12px;
+    text-decoration: none;
 }
 
 .quick-links {
@@ -56,8 +56,16 @@
     font-weight: bold;
 }
 
+.social-media {
+    list-style-type: none;
+}
+
 hr {
     background-color: #D9D9D9;
+}
+
+li {
+    list-style-type: none;
 }
 
 .copyright {
