@@ -1,7 +1,7 @@
 .container {
     color: white;
     background-color: #000000;
-    padding: 0px;
+    padding: 1px;
     min-width: 100vw;
     margin: 0;
     box-sizing: border-box;
@@ -12,7 +12,7 @@
     display: flex;
     color: white;
     background-color: black;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 4%;
     width: 100%;
     margin: 0;
@@ -29,12 +29,11 @@
 .website-slogan {
     color: #D9D9D9;
     font-size: 14px;
-    padding-top: 14px;
+    padding-top: 4px;
 }
 
 .link a {
-    color: white;
-    padding-top: 12px;
+    color: #D9D9D9;
     text-decoration: none;
 }
 
@@ -44,7 +43,7 @@
     font-weight: bold;
 }
 
-.contacts {
+.contacts { 
     color: white;
     font-size: 15px;
     font-weight: bold;
@@ -65,12 +64,14 @@ hr {
 }
 
 li {
+    color: #D9D9D9;
+    font-size: 14px;
     list-style-type: none;
 }
 
 .copyright {
     text-align: center;
-    padding: 8px;
+    padding: 13px;
     font-size: 13px;
 }
 
