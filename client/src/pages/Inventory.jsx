@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar"
 import FeaturedVehicle from "../components/FeaturedVehicle"
+import '../styles/Inventory.css'
 
 function Inventory() {
 
@@ -10,14 +11,14 @@ function Inventory() {
           <h1>Inventory</h1>
           <div className="inventory-cards">
             <FeaturedVehicle
-              title="Ford C-Max"
+              title="2015 Ford C-Max"
               image="/assets/image/car_image.jpg"
               powerType="Electric"
               mileage="n/a"
               price="n/a"
             />
              <FeaturedVehicle
-              title="Ford C-Max"
+              title="2015 Ford C-Max"
               image="/assets/image/car_image.jpg"
               powerType="Electric"
               mileage="n/a"

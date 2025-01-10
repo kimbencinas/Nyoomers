@@ -1,11 +1,17 @@
 .vehicle-container {
     background-color: grey !important;
-    width: 180px;
+    width: 200px;
     border-radius: 8px;
 }
 
 .vehicle-image {
+    border-radius: 8px;
     width: 100%;
+}
+
+.vehicle-title {
+    font-weight: 700;
+    font-size: 17px;
 }
 
 .middle-row {
