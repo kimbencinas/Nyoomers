@@ -14,7 +14,7 @@ function FeaturedVehicle({ title, image, powerType, price, mileage }) {
             </div>
             <div className="last-row">
                 <p className="vehicle-price">{price}</p>
-                <button>Learn More</button>
+                <button className="learn-more">Learn More</button>
             </div>
         </div>
     )

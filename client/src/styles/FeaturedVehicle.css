@@ -1,38 +1,50 @@
 .vehicle-container {
-    background-color: grey !important;
-    width: 200px;
+    background-color: rgb(255, 255, 255);
+    width: 220px;
     border-radius: 8px;
+    border: 1px solid #7e7e7e;
 }
 
 .vehicle-image {
     border-radius: 8px;
     width: 100%;
+    height: 160px;
 }
 
 .vehicle-title {
     font-weight: 700;
-    font-size: 17px;
+    font-size: 18px;
+    padding: 10px 0px 0px 14px;
 }
 
 .middle-row {
     display: flex;
+    align-items: start;
+    gap: 5px;
+    margin-top: -10px;
+    padding: 5px 0px 0px 14px;
 }
 
 .last-row {
     display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding-bottom: 5px;
 }
 
-button {
+.learn-more {
     background-color: black;
     color: white;
-    border-radius: 18px;
-    width: 10px;
-    height: 30px;
-    font-size: 10px;
+    border-radius: 12px;
+    font-size: 14px;
+    height: 40px;
+    width: 100px;
     border: none;
+    align-self: end;
 }
 
 .vehicle-price {
     color: #38A169;
     font-weight: 600;
+    font-size: 19px;
 }

@@ -34,6 +34,7 @@ html, body {
 .featured-vehicles {
   background-color: white;
   color: black;
+  padding: 14px;
 }
 
 .inventory-button {
