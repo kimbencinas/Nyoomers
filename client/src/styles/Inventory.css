@@ -1,4 +1,17 @@
+.inventory-container {
+    padding: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.page-title {
+    font-size: 30px;
+}
+
 .inventory-cards {
     display: flex; 
-    gap: 20px;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 30px;
 }
+
