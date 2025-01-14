@@ -52,7 +52,7 @@ function Contact() {
               onChange={handleInputChange}
               required>
             </textarea>
-            <button type="submit">Send Message</button>
+            <button type="submit" className="submit-button">Send Message</button>
           </form>
         </div>
       </div>
