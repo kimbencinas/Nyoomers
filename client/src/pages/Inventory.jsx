@@ -17,47 +17,7 @@ function Inventory() {
               mileage="n/a"
               price="$5,000"
             />
-             <FeaturedVehicle
-              title="2015 Ford C-Max"
-              image="/assets/image/car_image.jpg"
-              powerType="Electric"
-              mileage="n/a"
-              price="$5,000"
-            />
-            <FeaturedVehicle
-              title="2015 Ford C-Max"
-              image="/assets/image/car_image.jpg"
-              powerType="Electric"
-              mileage="n/a"
-              price="$5,000"
-            />
-             <FeaturedVehicle
-              title="2015 Ford C-Max"
-              image="/assets/image/car_image.jpg"
-              powerType="Electric"
-              mileage="n/a"
-              price="$5,000"
-            /><FeaturedVehicle
-            title="2015 Ford C-Max"
-            image="/assets/image/car_image.jpg"
-            powerType="Electric"
-            mileage="n/a"
-            price="$5,000"
-          />
-           <FeaturedVehicle
-            title="2015 Ford C-Max"
-            image="/assets/image/car_image.jpg"
-            powerType="Electric"
-            mileage="n/a"
-            price="$5,000"
-          />
-          <FeaturedVehicle
-            title="2015 Ford C-Max"
-            image="/assets/image/car_image.jpg"
-            powerType="Electric"
-            mileage="n/a"
-            price="$5,000"
-          />
+          
           </div>
         </div>
       </>
